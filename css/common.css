@@ -32,40 +32,6 @@ header{
 	padding: 3px 0px;
 }
 .navbar{
-	border-radius: 0;
-}
-.portfolio{
-	text-align: center;
-}
-.navbar-brand img{
-	width: 30%;
-	padding: 0;
-	margin: 0;
-}
-
-.collapse img{
-	width: 40px;
-	height: 40px;
-}
-.navbar-brand {
-    float: left;
-   padding: 18.5px 15px;
-    font-size: 19px;
-    line-height: 21px;
-    height: 60px;
-}
-.caret {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: 2px;
-    margin-bottom: -17px;
-    vertical-align: middle;
-    border-top: 4px dashed;
-    border-right: 4px solid transparent;
-    border-left: 4px solid transparent;
-}
-.navbar{
 	margin-bottom: 0 !important;
 }
 .menu-sm a{
@@ -148,11 +114,6 @@ hr{
 .red-social i:hover{
 	background-color: #fff;
 	color: #2c3e50;
-}
-footer{
-	background-color: #2c3e50;
-	color: #fff;
-	padding: 1% 0%;
 }
 /*utilities*/
 .pt-5{
