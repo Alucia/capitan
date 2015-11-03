@@ -278,5 +278,26 @@ html {
 /* video */
 
 .video {
-    padding: 2% 18%;
+  padding: 2% 18%;
+}
+
+/*  cursos */
+
+.prerequisitos {
+  padding: 10% 20%;
+}
+
+.prueba {
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  border: transparent;
+  margin: 2% 0;
+}
+
+button.prueba:focus {
+  outline: none;
+}
+
+button[disabled] {
+  cursor: not-allowed;
 }
