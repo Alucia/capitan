@@ -32,7 +32,131 @@
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
 }
+<<<<<<< HEAD
 .requisitos{
   background-color: grey;
   padding:5%;
 }
+=======
+
+/**
+ * Fallback for IE 7
+ * Require Modernizr
+ */
+/*html*/
+.no-generatedcontent .steps {
+  list-style-position: inside;
+  list-style-type: decimal;
+}
+.no-generatedcontent .steps__link:before {
+  content: none;
+}
+
+
+/* video */
+
+.video {
+  padding: 2% 18%;
+}
+
+/*  cursos */
+
+.prerequisitos {
+  padding: 10% 20%;
+}
+
+.prueba {
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  border: transparent;
+  margin: 2% 0;
+}
+
+button.prueba:focus {
+  outline: none;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+}
+
+/*unidades*/
+
+a:hover, a:focus {
+    color: transparent;
+    /* text-decoration: underline; */
+}
+.unidades{
+    padding: 58px 30px 20px 30px;
+    min-height: 100%;
+}
+
+.thumbnail{ 
+  padding: 0;
+  margin: 30px 0 20px 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+    position: relative;
+    border: 1px solid transparent;
+    background: #FBF5EF;
+    border-radius: 8px;    
+}
+.thumbnail:before{
+  background:url(../img/background.jpg) left no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    height:120px;
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.thumbnail:after{
+  background-color: #F7B617;
+  content: "";
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: block;
+    height: 120px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    opacity: 0.7;
+}
+.thumbnail .caption{
+      padding: 115px 40px 20px 40px;
+
+}
+
+.content-img {
+  left: 50%;
+    position: absolute;
+    display: block;
+    height: 140px;
+    padding: 0.2em;
+    z-index: 2;
+    width: 130px;
+    top: -23px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+
+}
+.content-img:hover{
+  top: -10px;
+
+}
+
+.caption h3{
+     color: #F9A91A;
+}
+
+.btn{
+  white-space: normal; 
+  padding: 0; 
+}
+>>>>>>> dceb989dce826d2d90f384d2685119fa3263d80a
