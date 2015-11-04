@@ -13,6 +13,7 @@
 	height: 40px;
 }
 .navbar-brand {
+<<<<<<< HEAD
     float: left;
   /* padding: 18.5px 15px; */
     font-size: 19px;
@@ -84,181 +85,31 @@ html {
   background: #EFEFEF;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+=======
+>>>>>>> 825a01d709dc4e1c650238c7fde8777c32649675
   float: left;
-  position: relative;
-  white-space: nowrap;
-  /**
-   * Defining step width depending on the number of steps
-   */
-  /**
-   * Arrow shapes
-   */
-  /**
-   * Small width stuff kids
-   */
+  padding: 18.5px 15px;
+  font-size: 19px;
+  line-height: 21px;
+  height: 60px;
 }
-.steps__item:first-child:nth-last-child(1), .steps__item:first-child:nth-last-child(1) ~ .steps__item {
-  width: 100%;
-}
-.steps__item:first-child:nth-last-child(2), .steps__item:first-child:nth-last-child(2) ~ .steps__item {
-  width: 50%;
-}
-.steps__item:first-child:nth-last-child(3), .steps__item:first-child:nth-last-child(3) ~ .steps__item {
-  width: 33.33333%;
-}
-.steps__item:first-child:nth-last-child(4), .steps__item:first-child:nth-last-child(4) ~ .steps__item {
-  width: 25%;
-}
-.steps__item:first-child:nth-last-child(5), .steps__item:first-child:nth-last-child(5) ~ .steps__item {
-  width: 20%;
-}
-.steps__item:first-child:nth-last-child(6), .steps__item:first-child:nth-last-child(6) ~ .steps__item {
-  width: 16.66667%;
-}
-.steps__item:first-child:nth-last-child(7), .steps__item:first-child:nth-last-child(7) ~ .steps__item {
-  width: 14.28571%;
-}
-.steps__item:first-child:nth-last-child(8), .steps__item:first-child:nth-last-child(8) ~ .steps__item {
-  width: 12.5%;
-}
-.steps__item:first-child:nth-last-child(9), .steps__item:first-child:nth-last-child(9) ~ .steps__item {
-  width: 11.11111%;
-}
-.steps__item:first-child:nth-last-child(10), .steps__item:first-child:nth-last-child(10) ~ .steps__item {
-  width: 10%;
-}
-.steps__item:after {
-  width: 1.85616em;
-  height: 1.85616em;
-  position: absolute;
-  top: 0.35355em;
-  left: 100%;
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
-  content: '';
-  z-index: 2;
-  background: inherit;
-  border-right: 1px solid #ccc;
-  border-top: 1px solid #ccc;
-  margin-left: -0.92808em;
-}
-.steps__item[disabled] {
-  cursor: not-allowed;
-}
-@media (max-width: 767px) {
-  .steps__item {
-    width: 100% !important;
-    border: 1px solid #ccc;
-    border-bottom: none;
-    padding: 1em 0;
-  }
-  .steps__item:after {
-    content: none;
-  }
-}
-
-/**
- * Left border on first item
- */
-.steps__item--first {
-  border-left: 1px solid #ccc;
-}
-
-/**
- * Right border on last item
- */
-.steps__item--last {
-  border-right: 1px solid #ccc;
-  /**
-   * No left arrow on first item
-   * No right arrow on last item
-   */
-}
-@media (max-width: 767px) {
-  .steps__item--last {
-    border-bottom: 1px solid #ccc;
-  }
-}
-.steps__item--last:after {
-  content: none;
-}
-
-/**
- * Step link
- */
-/*a|span*/
-.steps__link {
-  -webkit-transition: .25s ease-out;
-          transition: .25s ease-out;
-  color: #999;
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  padding: 0.5em 0;
-  /**
-   * Counter
-   */
-  /**
-   * Hover stuff
-   */
-}
-.steps__link:before {
-  width: 1.5em;
-  height: 1.5em;
+.caret {
   display: inline-block;
-  content: counter(steps);
-  text-align: center;
-  background: #BCBCBC;
-  border-radius: 50%;
-  color: white;
-  margin: 0 1em;
-  line-height: 1.5em;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  margin-bottom: -17px;
+  vertical-align: middle;
+  border-top: 4px dashed;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
 }
-:not([disabled]) > .steps__link:hover, :not([disabled]) > .steps__link:focus {
-  color: #333;
+<<<<<<< HEAD
+.requisitos{
+  background-color: grey;
+  padding:5%;
 }
-@media (max-width: 767px) {
-  .steps__link:before {
-    float: left;
-    margin-right: 0;
-  }
-}
-
-/**
- * Active state
- */
-/*a*/
-.steps__item--active {
-  background: #FFF;
-}
-
-/**
- * Change link colors
- */
-.steps__item--done .steps__link,
-.steps__item--active .steps__link {
-  color: #333;
-}
-.steps__item--done .steps__link:before,
-.steps__item--active .steps__link:before {
-  background: #22a4bc;
-}
-
-/**
- * Fallback for IE 8
- * Require Modernizr
- */
-/*html*/
-.no-csstransforms {
-  /*li*/
-}
-.no-csstransforms .steps__item {
-  border-right: 1px solid #ccc;
-}
-.no-csstransforms .steps__item:after {
-  content: none !important;
-}
+=======
 
 /**
  * Fallback for IE 7
@@ -380,6 +231,10 @@ a:hover, a:focus {
   white-space: normal; 
   padding: 0; 
 }
+<<<<<<< HEAD
 footer{
   background: 
 }
+=======
+>>>>>>> dceb989dce826d2d90f384d2685119fa3263d80a
+>>>>>>> 825a01d709dc4e1c650238c7fde8777c32649675

@@ -1,0 +1,33 @@
+.navbar-default {
+  background-color: #333;
+  border-radius: 0;
+}
+
+.requisitos h1{
+  color: white;
+}
+
+.prerequisitos {
+  padding: 10% 20%;
+}
+
+.prerequisitos a:hover {
+  color: #fff;
+}
+
+.prueba {
+	background: #333;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  border: transparent;
+  margin: 2% 0;
+}
+
+button.prueba:focus {
+  outline: none;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+  background: #777;
+}
