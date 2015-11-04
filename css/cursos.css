@@ -1,0 +1,24 @@
+.requisitos h1{
+  color: white;
+}
+
+.prerequisitos {
+  padding: 10% 20%;
+}
+
+.prueba {
+	background: #2c3e50;
+  border-bottom-left-radius: 100px;
+  border-top-left-radius: 100px;
+  border: transparent;
+  margin: 2% 0;
+}
+
+button.prueba:focus {
+  outline: none;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+  background: #777;
+}
