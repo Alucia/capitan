@@ -1,21 +1,28 @@
+
+html {
+  box-sizing: border-box;
+}
+
+*, :after, :before {
+  box-sizing: inherit;
+}
+/*header*/
 .navbar{
 	border-radius: 0;
-}
-.portfolio{
-	text-align: center;
 }
 .navbar-brand img{
 	width: 12%;
 }
-
+.navbar-default .navbar-collapse{
+    padding: 2%;
+}
 .collapse img{
 	width: 40px;
 	height: 40px;
 }
 .navbar-brand {
-<<<<<<< HEAD
     float: left;
-  /* padding: 18.5px 15px; */
+   padding: 18.5px 15px; 
     font-size: 19px;
     line-height: 21px;
     height: 60px;
@@ -31,6 +38,7 @@
     border-right: 4px solid transparent;
     border-left: 4px solid transparent;
 }
+/**/
 .requisitos{
     background-color: grey;
     padding:5%;
@@ -38,97 +46,8 @@
 .requisitos h1{
     color: white;
 }
-
 .espacio {
     padding: 5%;
-}
-
-/* barra */
-
-html {
-  box-sizing: border-box;
-}
-
-*, :after, :before {
-  box-sizing: inherit;
-}
-
-/**
- * Ordered list wrapper
- * 1. Prevents ugly shapes when selecting .steps
- * 2. Initializing counter
- */
-/*ol*/
-.steps {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  /* 1 */
-  counter-reset: steps;
-  /* 2 */
-  overflow: hidden;
-  list-style: none;
-  padding: 0;
-  margin: 0 0 1em 0;
-  padding: 1% 0%;
-}
-
-/**
- * Steps
- * 1. Incrementing counter
- */
-/*li*/
-.steps__item {
-  counter-increment: steps;
-  /* 1 */
-  background: #EFEFEF;
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-=======
->>>>>>> 825a01d709dc4e1c650238c7fde8777c32649675
-  float: left;
-  padding: 18.5px 15px;
-  font-size: 19px;
-  line-height: 21px;
-  height: 60px;
-}
-.caret {
-  display: inline-block;
-  width: 0;
-  height: 0;
-  margin-left: 2px;
-  margin-bottom: -17px;
-  vertical-align: middle;
-  border-top: 4px dashed;
-  border-right: 4px solid transparent;
-  border-left: 4px solid transparent;
-}
-<<<<<<< HEAD
-.requisitos{
-  background-color: grey;
-  padding:5%;
-}
-=======
-
-/**
- * Fallback for IE 7
- * Require Modernizr
- */
-/*html*/
-.no-generatedcontent .steps {
-  list-style-position: inside;
-  list-style-type: decimal;
-}
-.no-generatedcontent .steps__link:before {
-  content: none;
-}
-
-
-/* video */
-
-.video {
-  padding: 2% 18%;
 }
 
 /*  cursos */
@@ -198,10 +117,9 @@ a:hover, a:focus {
     opacity: 0.7;
 }
 .thumbnail .caption{
-      padding: 115px 40px 20px 40px;
+  padding: 115px 40px 20px 40px;
 
 }
-
 .content-img {
   left: 50%;
     position: absolute;
@@ -222,19 +140,13 @@ a:hover, a:focus {
   top: -10px;
 
 }
-
 .caption h3{
-     color: #F9A91A;
+  color: #F9A91A;
 }
-
 .btn{
   white-space: normal; 
   padding: 0; 
 }
-<<<<<<< HEAD
 footer{
   background: 
 }
-=======
->>>>>>> dceb989dce826d2d90f384d2685119fa3263d80a
->>>>>>> 825a01d709dc4e1c650238c7fde8777c32649675
