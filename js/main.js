@@ -6,4 +6,11 @@ $(document).ready(function() {
 	});
 });
 
+$(document).ready(function(){
+   $("btn-block").click(function() {
+      menu.html = $(this).attr("menu.html");
+      window.open(menu.html , 'menu.html');
+      return false;
+   });
+});
 

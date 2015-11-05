@@ -1,0 +1,47 @@
+#page_effect {
+    -webkit-animation: fadein 2.5s; /* Safari and Chrome */
+    -moz-animation: fadein 2.5s; /* Firefox */
+    -ms-animation: fadein 2.5s; /* Internet Explorer */
+    -o-animation: fadein 2.5s; /* Opera */
+    animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+} 
+
+.error{
+	background: pink;
+	border: 1px solid red;
+	color: red;
+}
+
+header{
+	background: #F0F0F0 !important;
+	padding: 14%  30% !important; 
+
+}
+.form-login{
+	background: grey;
+	padding: 4% 3%;
+	text-align: center;
+	border: none;
+	-webkit-box-shadow: 1px 12px 90px 12px #C2C2C2;
+	|box-shadow: 1px 12px 90px 12px #C2C2C2;
+}
+h2{
+	color: #F9A91A;
+	padding: 7%;
+	background: white;
+	font-family: "Josefin Sans";
+}
+.btn-block{
+	background: green;
+	color: white;
+	padding: 2%;
+}
+.btn-block:hover{
+	background: #333;
+	color: #F9A91A;
+}
