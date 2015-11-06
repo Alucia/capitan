@@ -1,6 +1,6 @@
-.navbar-default {
-  background-color: #333;
-  border-radius: 0;
+.requisitos {
+  background: #ccc;
+  padding: 5%;
 }
 
 .requisitos h1{
@@ -8,7 +8,7 @@
 }
 
 .prerequisitos {
-  padding: 10% 20%;
+  padding: 5% 20%;
 }
 
 .prerequisitos a:hover {
@@ -19,7 +19,7 @@
   border-bottom-left-radius: 100px;
   border-top-left-radius: 100px;
   border: transparent;
-  margin: 2% 0;
+  margin: 1% 0;
 }
 
 button.prueba:focus {
