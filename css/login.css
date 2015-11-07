@@ -1,3 +1,4 @@
+
 #page_effect {
     -webkit-animation: fadein 2.5s; /* Safari and Chrome */
     -moz-animation: fadein 2.5s; /* Firefox */
@@ -15,16 +16,16 @@
 	background: pink;
 	border: 1px solid red;
 	color: red;
+	width: 100%;
+	padding: 1%;
+	font-size: 1.4em;
+	text-transform: none;
+
 }
 
-header{
-	background: #F0F0F0 !important;
-	padding: 14%  30% !important; 
-
-}
 .form-login{
-	background: grey;
-	padding: 4% 3%;
+	background: #f0f0f0;
+	padding: 7.7% 35%;
 	text-align: center;
 	border: none;
 	-webkit-box-shadow: 1px 12px 90px 12px #C2C2C2;
@@ -37,8 +38,8 @@ h2{
 	font-family: "Josefin Sans";
 }
 .btn-block{
-	background: green;
-	color: white;
+	background: #636060;
+	color: #F9A91A;
 	padding: 2%;
 }
 .btn-block:hover{
